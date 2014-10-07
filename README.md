@@ -25,7 +25,7 @@ the filter method executes a test implemented by a provided function and creates
 * `reduce`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 the reduce method applies a function against an accumulator and each value of the array (from left-to-right) has to reduce it to a single value.
 * `reject`: [note](http://underscorejs.org/#reject)
-the reject method executes a test implemented by a provided function and creates a new array from all elements that fail to pass the test. 
+the reject method executes a test implemented by a provided function and modifies the array by eliminating all elements that fail to pass the test. 
 
 Use the notes provided to help guide you explanation.
 

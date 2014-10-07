@@ -12,16 +12,20 @@ In the iterators lab we will be continuing our exploration of iterators and buil
 Research the following term and summarize your findings on it two to three sentences:
 
 * `higher-order function`
+a higher-order function is a function that 1) takes one or more functions as an input and/or also 2) outputs a function, allowing us to manipulate actions not simply values. 
 
 Pretending we implemented the following methods, update this README with a description of each of the following and an example you've created:
 
-* `max`
-* `min`
-* `each`
-* `map`
+* `max` the max function outputs the highest-value element from the array. 
+* `min` the min function outputs the lowest-value element from the array.
+* `each` the each function executes a provided function once per array element. 
+* `map` the map function executes a provided function once per array element and outputs a new array of the results
 * `filter`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+the filter method executes a test implemented by a provided function and creates a new array from all elements that pass the test
 * `reduce`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+the reduce method applies a function against an accumulator and each value of the array (from left-to-right) has to reduce it to a single value.
 * `reject`: [note](http://underscorejs.org/#reject)
+the reject method executes a test implemented by a provided function and creates a new array from all elements that fail to pass the test. 
 
 Use the notes provided to help guide you explanation.
 
